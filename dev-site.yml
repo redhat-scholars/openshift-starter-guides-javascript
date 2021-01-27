@@ -3,8 +3,8 @@ runtime:
 
 site:
   title: OpenShift Starter Guides(Dev Mode)
-  url: http://localhost:3000/rhs-openshift-starter-guides-dotnet/index.html
-  start_page: rhs-openshift-starter-guides-dotnet::index.adoc
+  url: http://localhost:3000/rhs-openshift-starter-guides-javascript/index.html
+  start_page: rhs-openshift-starter-guides-javascript::index.adoc
 
 content:
   sources:
@@ -27,8 +27,8 @@ asciidoc:
     page-pagination: true
     openshift-console-url: https://console-openshift-console.apps.example.com
     etherpad-url: http://example.com
-    lab: dotnet
-    lab-name: .NET
+    lab: javascript
+    lab-name: NodeJS
   extensions:
     - ./lib/remote-include-processor.js
     - ./lib/tab-block.js

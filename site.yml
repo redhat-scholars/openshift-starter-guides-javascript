@@ -3,12 +3,12 @@ runtime:
 
 site:
   title: OpenShift Starter Guides
-  url: http://redhat-scholars.github.io/openshift-starter-guides-dotnet/
-  start_page: rhs-openshift-starter-guides-dotnet::index.adoc
+  url: http://redhat-scholars.github.io/openshift-starter-guides-javascript/
+  start_page: rhs-openshift-starter-guides-javascript::index.adoc
 
 content:
   sources:
-    - url: git@github.com:redhat-scholars/openshift-starter-guides-dotnet.git
+    - url: git@github.com:redhat-scholars/openshift-starter-guides-javascript.git
       tags: []
       branches: [roks, ocp-4.6]
       start_path: documentation
@@ -24,8 +24,8 @@ asciidoc:
     release-version: roks
     roks-login-url: https://cloud.ibm.com/authorize/devcluster
     page-pagination: true
-    lab: dotnet
-    lab-name: .NET
+    lab: javascript
+    lab-name: NodeJS
   extensions:
     - ./lib/tab-block.js
     - ./lib/remote-include-processor.js
